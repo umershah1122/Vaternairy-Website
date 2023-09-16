@@ -1,0 +1,155 @@
+/* navbar */
+#top-nav{
+    background-color: #daac00;
+    padding: 0 6%;
+}
+.nav-link{
+        color: rgb(255 255 255);
+        font-size: 20px;
+        margin-left: 30px;
+
+}
+#formbox{
+    background-color: #fcc302;
+    border:0;
+    border-radius: 0px;
+    position: relative;
+    left: 8px;
+    color: white;
+}
+#formbox::placeholder{
+    color: white;
+}
+#formbtn{
+    background-color: #00bec9;
+    border: 0;
+    position: relative;
+    border-radius: 0px;
+    z-index: 100;
+}
+/* banner */
+#banner{
+    background-color: #fcc302;
+    color: white;
+}
+#bannertext{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+#bannertext h1{
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#bannertext p{
+    font-size: 29px;
+}
+#btn1{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    color: white;
+}
+#btn2{
+    color: white;
+    border: 2px solid white;
+    margin-left: 15px;
+}
+#bannerimg{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 300px;
+}
+/* service */
+#service-text{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#service-text h1{
+    font-weight: bold;
+    font-size: 45px;
+}
+#service-text p{
+    font-size: 23px;
+}
+#service-btn{
+    color: white;
+    background-color: #fcc302;
+    border: 2px solid #fcc302;
+}
+#service-img{
+    padding: 7%;
+}
+/* counter section */
+#Counter-bg{
+   background-image: url("../images/bgimage.png");
+   background-position: center;
+   padding-top: 100px;
+   padding-bottom: 120px;
+   background-size: cover;
+}
+.counter-icon{
+    font-size: 70px;
+}
+/* recent post  */
+.dd-date{
+    color: #00bec9;
+}
+.dd-more a{
+    text-decoration: none;
+    color: #00bec9;
+}
+.bdr{
+    border: 1px solid rgba(128, 121, 128, 0.238);
+    border-top: none;
+    padding-left: 15px;
+}
+/* footer */
+#foother{
+    background-color: #343434;
+    padding: 50px 0;
+}
+#foother a{
+    text-decoration: none;
+    color: white;
+}
+#foother-box{
+    background-color: #fcc302;
+    border: 0;
+}
+#foother-btn{
+    background-color: #00bec9;
+    border: 0;
+}
+/* responsiveness */
+@media only screen and (max-width:990px) {
+    .nav-link{
+        margin-left: 10px;
+
+    }
+    #service-text h1{
+        font-size: 30px;
+    }
+    #service-text p{
+        font-size: 18px;
+    }
+    #service-img{
+        padding-top: 10%;
+    }
+}
+@media only screen and (max-width:1020px) {
+    #bannertext h1{
+        font-size: 45px;
+    }
+}
+@media only screen and (max-width:840px) {
+    #bannertext p {
+        font-size: 20px;
+    }
+    #bannertext h1{
+        font-size: 30px;
+    }
+    #bannerimg{
+        width: 200px;
+
+    }
+    
+}
